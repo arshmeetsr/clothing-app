@@ -1,0 +1,34 @@
+.filter {
+  margin-bottom: 20px;
+}
+
+.color-list li {
+  margin-bottom: 5px;
+}
+
+.color-list li input {
+  display: none;
+}
+
+.color-list li label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.color-list li input:checked ~ label .swatch {
+  border: 2px solid;
+}
+
+.color-list li .text {
+  text-transform: capitalize;
+}
+
+.month-list li {
+  margin-bottom: 5px;
+}
+
+.filters-container {
+  max-height: 85vh;
+  overflow-y: auto;
+}

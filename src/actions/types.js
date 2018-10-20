@@ -1,0 +1,4 @@
+export const FETCH_CLOTHES = 'FETCH_CLOTHES';
+
+export const FILTER_BY_COLOR = 'FILTER_BY_COLOR';
+export const FILTER_BY_MONTH = 'FILTER_BY_MONTH';

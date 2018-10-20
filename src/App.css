@@ -1,0 +1,16 @@
+.app-container {
+  display: flex;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 2px solid;
+  justify-content: space-between;
+}
+
+.side-container {
+  flex-basis: 25%;
+  border-right: 2px solid;
+}
+
+.content-container {
+  flex-basis: 70%;
+}

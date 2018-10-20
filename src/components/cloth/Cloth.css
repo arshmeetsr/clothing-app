@@ -1,0 +1,37 @@
+.preview {
+  height: 150px;
+  width: 200px;
+}
+
+.swatch {
+  height: 30px;
+  width: 50px;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.swatch.selected {
+  border: 2px solid;
+}
+
+.cloth-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cloth-item .preview {
+  margin-right: 20px;
+}
+
+.cloth-item .color-list {
+  display: flex;
+}
+
+.items-container {
+  height: 85vh;
+  overflow-y: auto;
+}
